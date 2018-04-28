@@ -43,7 +43,7 @@ def over?(board)
   draw?(board) || won?(board) || !won?(board) && full?(board)
 end  
 
-def winnr?(board)
+def winner?(board)
   
 end  
 
