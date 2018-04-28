@@ -29,4 +29,5 @@ def won?(board)
     position2 = win_combo[1]
     position3 = win_combo[3]
     board(position1) == board(postion2) && board(position2) == board(position3) && board(position1) !== " "  
+  end
 end  
