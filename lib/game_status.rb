@@ -27,7 +27,7 @@ def won?(board)
   WIN_COMBINATIONS.detect do | win_combo |
     position1 = win_combo[0]
     position2 = win_combo[1]
-    position3 = win_combo[3]
+    position3 = win_combo[2]
     board(position1) == board(position2) && board(position2) == board(position3) && board(position1) != " "  
   end
 end  
