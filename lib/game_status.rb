@@ -28,5 +28,5 @@ def won?(board)
     position1 = win_combo[0]
     position2 = win_combo[1]
     position3 = win_combo[3]
-    
+    board(position1) == board(postion2) ==
 end  
