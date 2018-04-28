@@ -44,6 +44,6 @@ def over?(board)
 end  
 
 def winner?(board)
-  
+  winner = "X"
 end  
 
