@@ -23,5 +23,6 @@ WIN_COMBINATIONS = [
 ]
 
 def won?(board)
-  [0, 1, 2].include?{|i| i.
+  #return a winning combination, or return false
+  [0, 1, 2]
 end  
