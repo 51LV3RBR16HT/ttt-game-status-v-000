@@ -25,5 +25,6 @@ WIN_COMBINATIONS = [
 def won?(board)
   #return a winning combination, or return false
   WIN_COMBINATIONS.select do | win_combo |
-    position1 = 
+    position1 = win_combo[0]
+    
 end  
