@@ -46,5 +46,6 @@ end
 def winner(board)
   win_combination = won?(board)
   win_location = win_combination[0]
+  [board]
 end  
 
