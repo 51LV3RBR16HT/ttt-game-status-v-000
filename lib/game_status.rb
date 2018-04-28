@@ -28,6 +28,10 @@ def won?(board)
     position1 = win_combination[0]
     position2 = win_combination[1]
     position3 = win_combination[2]
-    board(position1) == board(position2) && board(position2) == board(position3) && board(position1) != " "  
+    if board(position1) == board(position2) && board(position2) == board(position3) 
+      board
+    else 
+      false
+    end
   end
 end  
