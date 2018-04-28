@@ -6,7 +6,12 @@ end
 # Define your WIN_COMBINATIONS constant
 
 def WIN_COMBINATIONS(board) = [
-  [0,1,2],
+  top_row_win = [0,1,2]
+  
+  
+  
+  
+  
   [3,4,5],
   [6,7,8],
   [0,3,6],
