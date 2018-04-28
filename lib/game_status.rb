@@ -32,7 +32,7 @@ def won?(board)
 end  
 
 def full?(board)
-  board.none? do {|space| space !== " "}
+  board.none? do {|space| space == " "}
   
   end
 end  
