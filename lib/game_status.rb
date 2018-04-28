@@ -25,6 +25,6 @@ WIN_COMBINATIONS = [
 def won?(board)
   #return a winning combination, or return false
   WIN_COMBINATIONS.each? do | winning_combinations |
-    puts winning_combinations
+    prints winning_combinations
   end
 end  
