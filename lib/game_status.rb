@@ -44,6 +44,6 @@ def over?(board)
 end  
 
 def winner(board)
-  won?(board) == "X"
+  WIN_COMBINATIONS(board) == "X"
 end  
 
