@@ -23,7 +23,6 @@ WIN_COMBINATIONS = [
 ]
 
 def won?(board)
-  #return a winning combination, or return false
   WIN_COMBINATIONS.detect do | win_combination |
     location1 = win_combination[0]
     location2 = win_combination[1]
