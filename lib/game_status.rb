@@ -35,3 +35,8 @@ def full?(board)
   board.none? {|space| space == " "}
 end  
 
+def draw?(board)
+  
+end  
+  
+
