@@ -24,11 +24,7 @@ WIN_COMBINATIONS = [
 
 def won?(board)
   #return a winning combination, or return false
-  WIN_COMBINATIONS.select do | winning_combinations |
-    if winning_combinations
-      winning_combinations.all?
-    else
-      false
+  WIN_COMBINATIONS.detect {|win| win.all?}
     end
   end
 end  
