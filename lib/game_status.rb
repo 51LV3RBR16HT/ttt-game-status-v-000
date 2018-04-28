@@ -24,7 +24,5 @@ WIN_COMBINATIONS = [
 
 def won?(board)
   #return a winning combination, or return false
-  board.detect {|win| win.all?}
-    end
-  end
+  WIN_COMBINATIONS.detect {|win| win.any?}
 end  
