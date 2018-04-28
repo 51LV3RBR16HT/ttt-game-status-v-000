@@ -24,7 +24,7 @@ WIN_COMBINATIONS = [
 
 def won?(board)
     WIN_COMBINATIONS.detect do |win_combination|
-      
+      location1 = 
 end  
 
 
