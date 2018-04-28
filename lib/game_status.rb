@@ -27,6 +27,8 @@ def won?(board)
   WIN_COMBINATIONS.each? do | winning_combinations |
     if winning_combinations == "X" || "O"
       return winning_combinations
+    else
+      return false
     end
   end
 end  
