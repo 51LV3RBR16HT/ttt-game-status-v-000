@@ -40,10 +40,10 @@ def draw?(board)
 end  
   
 def over?(board)
-  draw?(board) || won?(board) || !won?(board) && full?(board)
+  draw?(board) || won?(board)
 end  
 
-def winner?(board)
-  winner = "X"
-end  
+# def winner?(board)
+#   winner = "X"
+# end  
 
