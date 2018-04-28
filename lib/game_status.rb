@@ -44,6 +44,6 @@ def over?(board)
 end  
 
 def winner(board)
-  won?(board[0,4,8]) =="X"
+  won?(board)
 end  
 
