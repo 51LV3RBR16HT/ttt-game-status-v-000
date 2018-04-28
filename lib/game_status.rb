@@ -24,5 +24,5 @@ WIN_COMBINATIONS = [
 
 def won?(board)
   #return a winning combination, or return false
-  [0, 1, 2]
+  WIN_COMBINATIONS.each? 
 end  
