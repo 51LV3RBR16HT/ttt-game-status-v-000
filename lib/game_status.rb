@@ -45,7 +45,7 @@ end
 
 def winner(board)
   win_combination
-  win_location = win_combination[0] || draw?(board)
+  win_location = win_combination[0]
   board[win_location]
   end
 end  
